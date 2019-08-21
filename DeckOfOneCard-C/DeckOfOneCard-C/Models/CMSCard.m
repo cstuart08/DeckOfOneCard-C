@@ -31,16 +31,9 @@ static NSString * const cardsKey = @"cards";
 @implementation CMSCard (JSONConvertable)
 
 - (instancetype)initWithDictionary:(NSDictionary<NSString *,NSString *> *)dictionary {
-    NSArray *cardsArray = dictionary[cardsKey];
     
-    // Safety check...
-    if (![cardsArray isKindOfClass:[NSArray class]]) {
-        return nil;
-    }
-    
-    NSDictionary *cardDictionary = cardsArray;
-    NSString *suitName = cardDictionary[suitKey];
-    NSString *imageName = cardDictionary[imageKey];
+    NSString *suitName = dictionary[suitKey];
+    NSString *imageName = dictionary[imageKey];
 
     return [self initWithSuit:suitName image:imageName];
     

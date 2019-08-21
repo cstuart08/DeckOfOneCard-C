@@ -6,17 +6,15 @@
 //  Copyright © 2019 Apps. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "CMSCard.h"
-
-NS_ASSUME_NONNULL_BEGIN
+#import <UIKit/UIKit.h>
+@class CMSCard;
 
 @interface CMSCardController : NSObject
 
 + (CMSCardController *)shared;
 
-- (void)drawANewCard:(NSInteger)card completion:(void (^) (NSArray<CMSCard *> *cards, NSError *error))completion;
+- (void)drawANewCard:(NSInteger)numberOfCards completion:(void (^) (NSArray<CMSCard *> *cards, NSError *error))completion;
+
+- (void)fetchCardImage:(CMSCard *)card completion:(void (^) (UIImage *image, NSError *error))completion;
 
 @end
-
-NS_ASSUME_NONNULL_END

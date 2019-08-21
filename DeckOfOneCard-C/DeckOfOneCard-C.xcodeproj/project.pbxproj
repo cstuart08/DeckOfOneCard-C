@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4662A7D230CA9DE00AD125C /* CMSCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4662A7C230CA9DE00AD125C /* CMSCardViewController.m */; };
 		D4E6F78C230C82B2006C69E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E6F78B230C82B2006C69E9 /* AppDelegate.m */; };
 		D4E6F792230C82B2006C69E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E6F790230C82B2006C69E9 /* Main.storyboard */; };
 		D4E6F794230C82B3006C69E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E6F793230C82B3006C69E9 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4662A7B230CA9DE00AD125C /* CMSCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSCardViewController.h; sourceTree = "<group>"; };
+		D4662A7C230CA9DE00AD125C /* CMSCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSCardViewController.m; sourceTree = "<group>"; };
 		D4E6F787230C82B2006C69E9 /* DeckOfOneCard-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOneCard-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E6F78A230C82B2006C69E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4E6F78B230C82B2006C69E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		D4E6F7A1230C82E3006C69E9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4662A7B230CA9DE00AD125C /* CMSCardViewController.h */,
+				D4662A7C230CA9DE00AD125C /* CMSCardViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				D4E6F78C230C82B2006C69E9 /* AppDelegate.m in Sources */,
 				D4E6F7A7230C8537006C69E9 /* CMSCard.m in Sources */,
 				D4E6F7AA230C8E2D006C69E9 /* CMSCardController.m in Sources */,
+				D4662A7D230CA9DE00AD125C /* CMSCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
